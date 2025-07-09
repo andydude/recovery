@@ -1,0 +1,44 @@
+* {
+    //font-family: New Caledonia LT Std, Nimbus Roman, DejaVu Serif, serif;
+    //font-size: 14pt;
+    //text-align: justify;
+}
+article.container-md {
+    max-width: 720px;
+}
+article.container-sm {
+    max-width: 540px;
+}
+h1, h2, .subtitle, .author, .date {
+    text-align: center;
+    //margin-bottom: 0;
+}
+header {
+    //margin-bottom: 2em;
+}
+blockquote {
+    max-width: 90%;
+    //margin: 0px auto 16px auto;
+}
+.code {
+    color: var(--bs-code-color);
+}
+
+.bg-direction {
+    background-color: #9f3;
+}
+.bg-prayer {
+    background-color: #f69;
+}
+.bg-promise {
+    background-color: #9cf;
+}
+.bg-warning {
+    background-color: #ff3 !important;
+}
+
+@media print {
+    * {
+	print-color-adjust: exact;
+    }
+}
