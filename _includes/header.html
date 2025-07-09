@@ -5,9 +5,7 @@
     {%- assign page_paths = site.minima.nav_pages | default: default_paths -%}
     {%- assign page_titles = site.pages | map: 'title' | compact %}
     {%- unless page_titles == empty %}
-      <nav class="site-nav">
         {% include nav-items.html paths = page_paths %}
-      </nav>
     {%- endunless %}
   </div>
   
