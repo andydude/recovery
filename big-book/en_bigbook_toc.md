@@ -67,16 +67,16 @@ const tooltipList = [...tooltipTriggerList].map(t => new bootstrap.Tooltip(t))
 </tr>
 <tr>
 <td>1998-08-14 Joe McQ. and Charlie P. in Laughlin, NV (JC)</td>
-<td><a href="/big-book-1998-jc/en_bigbook_forewordaahistory_jc.html">here</a></td>
-<td><a href="/big-book-1998-jc/en_bigbook_foreworddoctorsopinion_jc.html">here</a></td>
-<td><a href="/big-book-1998-jc/en_bigbook_chapt1_jc.html">here</a></td>
-<td><a href="/big-book-1998-jc/en_bigbook_chapt2_jc.html">here</a></td>
-<td><a href="/big-book-1998-jc/en_bigbook_chapt3_jc.html">here</a></td>
-<td><a href="/big-book-1998-jc/en_bigbook_chapt4_jc.html">here</a></td>
-<td><a href="/big-book-1998-jc/en_bigbook_chapt5_jc.html">here</a></td>
-<td><a href="/big-book-1998-jc/en_bigbook_step4_jc.html">here</a></td>
-<td><a href="/big-book-1998-jc/en_bigbook_chapt6_jc.html">here</a></td>
-<td><a href="/big-book-1998-jc/en_bigbook_step1x_jc.html">here</a></td>
+<td><a href="/recovery/big-book-1998-jc/en_bigbook_forewordaahistory_jc.html">here</a></td>
+<td><a href="/recovery/big-book-1998-jc/en_bigbook_foreworddoctorsopinion_jc.html">here</a></td>
+<td><a href="/recovery/big-book-1998-jc/en_bigbook_chapt1_jc.html">here</a></td>
+<td><a href="/recovery/big-book-1998-jc/en_bigbook_chapt2_jc.html">here</a></td>
+<td><a href="/recovery/big-book-1998-jc/en_bigbook_chapt3_jc.html">here</a></td>
+<td><a href="/recovery/big-book-1998-jc/en_bigbook_chapt4_jc.html">here</a></td>
+<td><a href="/recovery/big-book-1998-jc/en_bigbook_chapt5_jc.html">here</a></td>
+<td><a href="/recovery/big-book-1998-jc/en_bigbook_step4_jc.html">here</a></td>
+<td><a href="/recovery/big-book-1998-jc/en_bigbook_chapt6_jc.html">here</a></td>
+<td><a href="/recovery/big-book-1998-jc/en_bigbook_step1x_jc.html">here</a></td>
 <td></td>
 </tr>
 </tbody>
