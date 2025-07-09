@@ -1,0 +1,9 @@
+remote_theme: "jekyll/minima@1e8a445"
+title: Recovery
+author:
+  name: Anonymous
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+google_analytics: "G-P4FEMR2WT1"

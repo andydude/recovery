@@ -1,4 +1,5 @@
 ---
+layout: page
 pagetitle: "en_bigbook_toc"
 title: "Table of Contents"
 subtitle: "Alcoholics Anonymous Big Book Study"
@@ -10,6 +11,13 @@ author:
 
 <style>
 </style>
+
+<script>
+jQuery(function(){
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(t => new bootstrap.Tooltip(t))
+});
+</script>
 
 <table class="table table-bordered table-striped">
 <colgroup>
@@ -45,7 +53,7 @@ author:
 <tbody>
 <tr>
 <td>Original (4th Ed.)</td>
-<td><a href="en_bigbook_forewordhistory.html">here</a></td>
+<td><a href="en_bigbook_forewordaahistory.html">here</a></td>
 <td><a href="en_bigbook_foreworddoctorsopinion.html">here</a></td>
 <td><a href="en_bigbook_chapt1.html">here</a></td>
 <td><a href="en_bigbook_chapt2.html">here</a></td>
@@ -59,24 +67,17 @@ author:
 </tr>
 <tr>
 <td>1998-08-14 Joe McQ. and Charlie P. in Laughlin, NV (JC)</td>
-<td><a href="en_bigbook_forewordhistory_jc.html">here</a></td>
-<td><a href="en_bigbook_foreworddoctorsopinion_jc.html">here</a></td>
-<td><a href="en_bigbook_chapt1_jc.html">here</a></td>
-<td><a href="en_bigbook_chapt2_jc.html">here</a></td>
-<td><a href="en_bigbook_chapt3_jc.html">here</a></td>
-<td><a href="en_bigbook_chapt4_jc.html">here</a></td>
-<td><a href="en_bigbook_chapt5_jc.html">here</a></td>
-<td><a href="en_bigbook_step4_jc.html">here</a></td>
-<td><a href="en_bigbook_chapt6_jc.html">here</a></td>
-<td><a href="en_bigbook_step1x_jc.html">here</a></td>
+<td><a href="/big-book-1998-jc/en_bigbook_forewordaahistory_jc.html">here</a></td>
+<td><a href="/big-book-1998-jc/en_bigbook_foreworddoctorsopinion_jc.html">here</a></td>
+<td><a href="/big-book-1998-jc/en_bigbook_chapt1_jc.html">here</a></td>
+<td><a href="/big-book-1998-jc/en_bigbook_chapt2_jc.html">here</a></td>
+<td><a href="/big-book-1998-jc/en_bigbook_chapt3_jc.html">here</a></td>
+<td><a href="/big-book-1998-jc/en_bigbook_chapt4_jc.html">here</a></td>
+<td><a href="/big-book-1998-jc/en_bigbook_chapt5_jc.html">here</a></td>
+<td><a href="/big-book-1998-jc/en_bigbook_step4_jc.html">here</a></td>
+<td><a href="/big-book-1998-jc/en_bigbook_chapt6_jc.html">here</a></td>
+<td><a href="/big-book-1998-jc/en_bigbook_step1x_jc.html">here</a></td>
 <td></td>
 </tr>
 </tbody>
 </table>
-
-<script>
-jQuery(function(){
-const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-const tooltipList = [...tooltipTriggerList].map(t => new bootstrap.Tooltip(t))
-});
-</script>
