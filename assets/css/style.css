@@ -4,10 +4,7 @@
     //text-align: justify;
 }
 nav.navbar {
-    background-image: linear-gradient(90deg, yellow, yellow, yellow, red, red, red)
-}
-main {
-    padding-top: 100px;
+    background-image: linear-gradient(90deg, yellow, yellow, yellow, red, red, red);		      
 }
 article.container-md {
     max-width: 720px;
@@ -21,7 +18,9 @@ h1, h2, .subtitle, .author, .date {
 }
 blockquote {
     max-width: 90%;
-    //margin: 0px auto 16px auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    // margin: 0px auto 16px auto;
 }
 .code {
     color: var(--bs-code-color);
@@ -40,8 +39,19 @@ blockquote {
     background-color: #ff3 !important;
 }
 
+@media screen {
+    nav.navbar {
+	position: fixed;
+    }
+    main {
+        padding-top: 100px;
+    }
+}
 @media print {
     * {
 	print-color-adjust: exact;
+    }
+    main {
+        padding-top: 40px;
     }
 }

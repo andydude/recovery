@@ -4,8 +4,8 @@ isorig: true
 linktitle: FAH
 layout: page
 pagetitle: "en_bigbook_forwardaahistory"
-title: "Into Action"
-subtitle: "Alcoholics Anonymous Forward A.A. History"
+title: "A.A. History"
+subtitle: "Alcoholics Anonymous Forward"
 author:
 - "by Bill W."
 ---
